@@ -16,6 +16,5 @@ class Solution:
                 after=after.next
             head=head.next
         after.next=None
-        print(after_head)
         before.next=after_head.next
         return before_head.next
